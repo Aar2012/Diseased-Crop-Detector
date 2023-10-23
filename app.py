@@ -66,7 +66,9 @@ with col2:
 
 #these are main classes your image is trained on
 #you can define the classes in alphabectical order
-  PREDICTED_LABELS = ['apple diseased', 'apple healthy', 'potato diseased', 'potato healthy', 'tomato diseased', 'tomato healthy']
+  #PREDICTED_LABELS = ['apple diseased', 'apple healthy', 'potato diseased', 'potato healthy', 'tomato diseased', 'tomato healthy']
+  PREDICTED_LABELS = ['Diseased Apple Leaf', 'Healthy Apple Leaf', 'Diseased Potato Leaf', 'Healthy Potato Leaf', 'Diseased Tomato Leaf', 'Healthy Tomato Leaf']
+
 
 
   def get_prediction(image_data):
